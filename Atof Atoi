@@ -1,0 +1,11 @@
+Aatof y Atoi son funciones que combierten una cadena en numeros.
+en clase tomamos la cadena desde el argumento del ejecutable gcc
+
+f= atof(argv[1]); //toma el segundo argumento del ejecutable (que es cadena) y lo transforma en float
+a= atoi(argv[2]); //toma el tercer argumento del ejecutable y lo transforma en entero
+
+
+gcc archivo.c -o -lm ejecutable
+./ejecutable 2 1
+
+//el 2 y 1 de argumento pasan a estar en las variables f y a.
